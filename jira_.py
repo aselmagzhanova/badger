@@ -32,7 +32,7 @@ def auth_jira():
         'verify': False}
     jira = JIRA(options)
 
-    authed_jira = JIRA(auth=('magzhanova', 'slaeM%62063'),
+    authed_jira = JIRA(auth=('***', '***'),
                        options={'server': 'https://hcs.jira.lanit.ru', 'verify': False}
                        )
 
